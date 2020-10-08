@@ -82,7 +82,7 @@ def make_melon_type_lookup(melon_types):
         dict_melon[fruit.code] = fruit
     print (dict_melon)
 
-# dict_melon.get(fruit.code, fruit)
+
 
 ############
 # Part 2   #
