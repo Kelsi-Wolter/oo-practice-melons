@@ -32,24 +32,32 @@ class MelonType(object):
         # Fill in the rest
         self.new_code = new_code
 
-# Muskmelon = MelonType("musk", "1998", "green", "seedless", "bestseller", "Muskmelon")
-# Casaba = 
 
 def make_melon_types():
     """Returns a list of current melon types."""
 
+    
     all_melon_types = []
 
-    Muskmelon = MelonType("musk", "1998", "green", "seedless", "bestseller", "Muskmelon")
-    Casaba = MelonType('cas', '2003', 'orange', 'has seeds', 'not a bestseller', 'Casaba')
-    Crenshaw = MelonType('cren', '1996', 'green', 'has seeds', 'not a bestseller', 'Crenshaw')
-    YellowWatermelon = MelonType('yw', '2013', 'yellow', 'has seeds', 'bestseller', 'Yellow Watermelon')
+    muskmelon = MelonType("musk", "1998", "green", "seedless",
+     "bestseller", "Muskmelon")
+    
+    casaba = MelonType('cas', '2003', 'orange', 'has seeds',
+     'not a bestseller', 'Casaba')
+         
+    crenshaw = MelonType('cren', '1996', 'green', 'has seeds',
+     'not a bestseller', 'Crenshaw')
+   
+    yellow_watermelon = MelonType('yw', '2013', 'yellow', 'has seeds',
+     'bestseller', 'Yellow Watermelon')
+    
+    melon_types = [Muskmelon, Casaba, Crenshaw, YellowWatermelon]
     
     
     # Fill in the rest
-
+    
     return all_melon_types
-
+    
 def print_pairing_info(melon_types):
     """Prints information about each melon type's pairings."""
 
