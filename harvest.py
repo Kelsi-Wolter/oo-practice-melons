@@ -41,15 +41,19 @@ def make_melon_types():
 
     muskmelon = MelonType("musk", "1998", "green", "seedless",
      "bestseller", "Muskmelon")
+    muskmelon.pairing('Mint')
     
     casaba = MelonType('cas', '2003', 'orange', 'has seeds',
      'not a bestseller', 'Casaba')
+    casaba.pairing('Strawberries and mint')
          
     crenshaw = MelonType('cren', '1996', 'green', 'has seeds',
      'not a bestseller', 'Crenshaw')
+    crenshaw.pairing('proscuitto')
    
     yellow_watermelon = MelonType('yw', '2013', 'yellow', 'has seeds',
      'bestseller', 'Yellow Watermelon')
+    yellow_watermelon.pairing('Ice Cream')
     
     melon_types = [Muskmelon, Casaba, Crenshaw, YellowWatermelon]
     
